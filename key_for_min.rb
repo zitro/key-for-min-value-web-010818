@@ -6,7 +6,8 @@ def key_for_min_value(name_hash)
    if name_hash.empty?
       puts nil
     else
-      name-hash.sort
+      newKey = name_hash.values.sort
+      newKey
     end
  end
 end
