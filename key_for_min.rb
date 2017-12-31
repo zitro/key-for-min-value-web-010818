@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
    if name_hash.empty?
       nil
     else
-      newKey = name_hash.values.sort
-      newKey
+      samllKey = name_hash.values.sort
+      smallKey
     end
  end
 end
