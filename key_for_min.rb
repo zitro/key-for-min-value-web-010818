@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 
    if name_hash.empty?
-      return nil
+      nil
     else
       samllKey = name_hash.values.sort
       smallKey.keys[0]
