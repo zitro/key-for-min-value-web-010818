@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
       nil
     else
       samllKey = name_hash.values.sort
-      smallKey
+      smallKey.keys[0]
     end
  end
 end
